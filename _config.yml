@@ -1,0 +1,13 @@
+title: My Jekyll Site
+description: A site with multiple booklets
+remote_theme: sighingnow/jekyll-gitbook
+plugins:
+  - jekyll-remote-theme
+  - jekyll-collections
+collections:
+  digital-history:
+    output: true
+    permalink: /digital-history/:path/
+  python:
+    output: true
+    permalink: /python/:path/
