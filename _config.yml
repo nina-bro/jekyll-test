@@ -7,7 +7,7 @@ plugins:
 collections:
   digital-history:
     output: true
-    permalink: /digital-history/:path/
+    permalink: /:digital-history/:path/
   python:
     output: true
-    permalink: /python/:path/
+    permalink: /:python/:path/
